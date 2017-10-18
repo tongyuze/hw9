@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="About Me" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="299dp"
+        android:layout_height="142dp"
+        android:layout_margin="50dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:textAlignment="center"
+        app:srcCompat="@drawable/micon" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:text="Yuze Tong"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:text="9713-1129-99"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+</LinearLayout>

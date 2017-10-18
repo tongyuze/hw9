@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.yuzetong.myfb.DetailsActivity">
+    <item
+        android:id="@+id/fav"
+        android:orderInCategory="100"
+        android:title="Add to Favorites"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/share"
+        android:orderInCategory="100"
+        android:title="Share"
+        app:showAsAction="never"/>
+</menu>
